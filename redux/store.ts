@@ -21,11 +21,12 @@ const initialState: AppState = {
   },
 }
 
-declare global {
-  interface Window {
-    __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose
-  }
-}
+// Next js not compatible with this module
+// declare global {
+//   interface Window {
+//     __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose
+//   }
+// }
 
 // let composeEnhancers = compose
 // if (typeof window !== undefined) {
